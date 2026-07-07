@@ -1,0 +1,50 @@
+[
+  {
+    "id": "ins_001",
+    "medication": "Insulin Lispro",
+    "protocol_type": "Standard",
+    "department": "General Ward",
+    "content": "Insulin Lispro General Ward Standard sliding scale protocol. Check blood glucose before meals and at bedtime. Administer subcutaneous insulin lispro: 150-200 mg/dL: 2 units, 201-250 mg/dL: 4 units, 251-300 mg/dL: 6 units, >300 mg/dL: 8 units and notify physician.",
+    "last_updated": "2026-01-15"
+  },
+  {
+    "id": "ins_002",
+    "medication": "Insulin Lispro",
+    "protocol_type": "Override",
+    "department": "ICU",
+    "content": "Use continuous infusion protocol only. Initial rate 0.1 units/kg/hr. Monitor blood glucose every hour.",
+    "last_updated": "2026-03-10"
+  },
+  {
+    "id": "hep_001",
+    "medication": "Heparin",
+    "protocol_type": "Standard",
+    "department": "General Ward",
+    "content": "Heparin Standard Prophylaxis: Administer 5000 units subcutaneous every 12 hours. Monitor platelet count every 2-3 days.",
+    "last_updated": "2025-11-20"
+  },
+  {
+    "id": "hep_002",
+    "medication": "Heparin",
+    "protocol_type": "Override",
+    "department": "Cardiology",
+    "content": "Therapeutic weight-based Heparin infusion protocol for Cardiology. Bolus 80 units/kg IV, followed by continuous infusion at 18 units/kg/hr. Check aPTT every 6 hours and adjust infusion per nomogram.",
+    "last_updated": "2026-04-05"
+  },
+  {
+    "id": "kcl_001",
+    "medication": "Potassium Chloride",
+    "protocol_type": "Standard",
+    "department": "General Ward",
+    "content": "Standard Oral Supplement Protocol: For mild hypokalemia (potassium 3.0-3.4 mEq/L), administer 20 mEq potassium chloride orally daily. For moderate hypokalemia (potassium 2.5-2.9 mEq/L), administer 40 mEq orally daily. Recheck serum potassium next morning.",
+    "last_updated": "2025-08-12"
+  },
+  {
+    "id": "kcl_002",
+    "medication": "Potassium Chloride",
+    "protocol_type": "Override",
+    "department": "ICU",
+    "content": "ICU Electrolyte Alert: Rapid intravenous Potassium Chloride infusion. Maximum rate 10-20 mEq/hr via central venous line. Continuous ECG monitoring required. Recheck potassium level every 2 hours during active replacement.",
+    "last_updated": "2026-05-18"
+  }
+]
